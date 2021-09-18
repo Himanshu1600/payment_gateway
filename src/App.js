@@ -13,6 +13,7 @@ function App() {
           <Route exact path="/" component={() => <Homebody name="Home" />} />
           <Route
             exact
+            key="contact"
             path="/contact"
             component={() => <Contact name="Contact " />}
           />
