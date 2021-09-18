@@ -7,10 +7,10 @@ import Homebody from "./Homebody";
 function App() {
   return (
     <>
-      <Navbar />
       <Router>
+        <Navbar />
         <Switch>
-          <Route path="/" component={() => <Homebody name="Home" />} />
+          <Route exact path="/" component={() => <Homebody name="Home" />} />
           <Route
             exact
             path="/contact"
