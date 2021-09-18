@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/payment_gateway/static/css/main.24b50dc1.chunk.css",
-    "main.js": "/payment_gateway/static/js/main.7d404407.chunk.js",
-    "main.js.map": "/payment_gateway/static/js/main.7d404407.chunk.js.map",
+    "main.js": "/payment_gateway/static/js/main.3f6cbdd4.chunk.js",
+    "main.js.map": "/payment_gateway/static/js/main.3f6cbdd4.chunk.js.map",
     "runtime-main.js": "/payment_gateway/static/js/runtime-main.ebbc48cc.js",
     "runtime-main.js.map": "/payment_gateway/static/js/runtime-main.ebbc48cc.js.map",
-    "static/js/2.ac0ff62c.chunk.js": "/payment_gateway/static/js/2.ac0ff62c.chunk.js",
-    "static/js/2.ac0ff62c.chunk.js.map": "/payment_gateway/static/js/2.ac0ff62c.chunk.js.map",
+    "static/js/2.0e990350.chunk.js": "/payment_gateway/static/js/2.0e990350.chunk.js",
+    "static/js/2.0e990350.chunk.js.map": "/payment_gateway/static/js/2.0e990350.chunk.js.map",
     "index.html": "/payment_gateway/index.html",
     "static/css/main.24b50dc1.chunk.css.map": "/payment_gateway/static/css/main.24b50dc1.chunk.css.map",
-    "static/js/2.ac0ff62c.chunk.js.LICENSE.txt": "/payment_gateway/static/js/2.ac0ff62c.chunk.js.LICENSE.txt"
+    "static/js/2.0e990350.chunk.js.LICENSE.txt": "/payment_gateway/static/js/2.0e990350.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ebbc48cc.js",
-    "static/js/2.ac0ff62c.chunk.js",
+    "static/js/2.0e990350.chunk.js",
     "static/css/main.24b50dc1.chunk.css",
-    "static/js/main.7d404407.chunk.js"
+    "static/js/main.3f6cbdd4.chunk.js"
   ]
 }
