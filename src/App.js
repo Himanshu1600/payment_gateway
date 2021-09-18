@@ -10,7 +10,7 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
-          <Route exact path="/" component={() => <Homebody name="Home" />} />
+          <Route path="/" component={() => <Homebody name="Home" />} />
           <Route
             exact
             key="contact"
