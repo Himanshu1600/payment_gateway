@@ -1,0 +1,98 @@
+.home-page {
+  width: 100%;
+  height: 100vh;
+}
+.home-body > img {
+  width: 100%;
+  height: 100vh;
+  opacity: 0.89;
+  overflow: hidden;
+}
+.button_container {
+  position: absolute;
+  left: 47%;
+  top: 80%;
+}
+
+.dynamic-container {
+  position: absolute;
+  width: 50%;
+  left: 29%;
+  top: 55%;
+}
+.dynamic-text {
+  color: #ffff00;
+  font-size: 2rem;
+  font-weight: 700;
+  display: flex;
+}
+.button_container > a {
+  position: relative;
+  display: inline-block;
+  padding: 5px 10px;
+  color: #39ff14;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  overflow: hidden;
+  transition: 0.2s;
+}
+.button_container > a:hover {
+  color: #ffffff;
+  background: #39ff14;
+  box-shadow: 0 0 10px #39ff14, 0 0 40px #39ff14, 0 0 80px #39ff14;
+  transition-delay: 1.1s;
+}
+
+.button_container > a > span {
+  position: absolute;
+  display: block;
+}
+.button_container > a > span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #39ff14);
+}
+.button_container > a:hover > span:nth-child(1) {
+  left: 100%;
+  transition: 1s;
+}
+.button_container > a > span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #39ff14);
+}
+.button_container > a:hover > span:nth-child(3) {
+  right: 100%;
+  transition: 1s;
+  transition-delay: 0.5s;
+}
+.button_container > a > span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #39ff14);
+}
+.button_container > a:hover > span:nth-child(2) {
+  top: 100%;
+  transition: 1s;
+  transition-delay: 0.25s;
+}
+.button_container > a > span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #39ff14);
+}
+.button_container > a:hover > span:nth-child(4) {
+  bottom: 100%;
+  transition: 1s;
+  transition-delay: 0.75s;
+}
